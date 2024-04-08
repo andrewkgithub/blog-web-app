@@ -26,4 +26,9 @@ npm start
 
 4. Open `http://localhost:3000` in your browser.
 
+## Live Demo
+
+The application is deployed on Render and can be accessed at https://blog-web-app-dlc4.onrender.com/.
+
+
 
