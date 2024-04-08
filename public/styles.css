@@ -1,0 +1,155 @@
+body, h1, h2, p, ul, li, form, input, textarea, button, a {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+body {
+  background-color: #f7f9fc;
+  line-height: 1.6;
+  padding: 20px; /* Add padding to prevent content from touching the edges */
+}
+
+.container {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto; /* Center the container */
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #444;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+p {
+  overflow-wrap: break-word; /* Prevents long text strings from overflowing */
+  word-break: break-word; /* Alternative for overflow-wrap */
+  margin-bottom: 10px; /* Spacing below paragraphs */
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  border-bottom: 1px solid #eee;
+  padding: 20px 0;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+a, button {
+  display: inline-block;
+  margin: 10px 0;
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  border: none; /* Remove default borders */
+  cursor: pointer; /* Make it clear they are clickable */
+}
+
+a:hover, button:hover {
+  background-color: #0056b3;
+}
+
+.delete {
+  background-color: #ff4136;
+}
+
+.delete:hover {
+  background-color: #c0392b;
+}
+
+.post-actions a {
+  display: block; /* Stack the links */
+  margin: 5px 0; /* Space between the links */
+  padding: 8px 12px; /* Padding for aesthetics */
+  text-align: center; /* Center the text inside the link */
+  color: white; /* Text color */
+  text-decoration: none; /* Remove underline */
+  border-radius: 4px; /* Rounded corners */
+  transition: background-color 0.2s; /* Smooth transition for hover effect */
+}
+
+.edit {
+  background-color: #007bff;
+}
+
+.edit:hover {
+  background-color: #0056b3;
+}
+
+.delete {
+  background-color: #ff4136;
+}
+
+.delete:hover {
+  background-color: #c0392b;
+}
+
+input[type="text"], textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+#newPostBtn {
+  display: block;
+  width: auto;
+  padding: 10px 15px;
+  background-color: #2ecc71;
+  color: white;
+  border-radius: 4px;
+  text-align: center;
+  margin-bottom: 30px;
+  text-decoration: none;
+}
+
+#newPostBtn:hover {
+  background-color: #27ae60;
+}
+
+/* Add responsive behavior */
+@media (max-width: 768px) {
+  body {
+    padding: 10px;
+  }
+  
+  .container {
+    padding: 10px;
+  }
+  
+  h1 {
+    font-size: 2em; /* Adjust size for smaller screens */
+  }
+  
+  h2 {
+    font-size: 1.4em; /* Adjust size for smaller screens */
+  }
+  
+  .post-actions a {
+    padding: 6px 10px; /* Smaller padding for smaller screens */
+  }
+  
+  #newPostBtn {
+    padding: 8px 10px; /* Smaller padding for smaller screens */
+  }
+}
