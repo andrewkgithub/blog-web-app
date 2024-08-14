@@ -14,7 +14,7 @@ To run this project locally:
 
 1. Clone the repo:
 
-git clone https://github.com/yourusername/your-repo-name.git
+git clone https://github.com/andrewkgithub/blog-web-app.git
 
 2. Install the dependencies:
 
